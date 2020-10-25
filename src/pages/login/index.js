@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import { useHistory } from "react-router-dom";
+import jwt_decode from "jwt-decode";
 
 import Menu from '../../components/menu'
 import Rodape from '../../components/rodape'
@@ -38,7 +39,7 @@ const Login = () => {
         .then(data => {
             localStorage.setItem('token-nyous', data.token);
 
-            let usuario = (data.token);
+            let usuario = jwt_decode (data.token);
 
             if(usuario.role === 'Admin')
                 history.push('/admin/dashboard');
