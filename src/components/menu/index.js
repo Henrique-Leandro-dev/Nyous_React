@@ -1,6 +1,7 @@
 import React from   'react';
 import {Navbar, Nav} from 'react-bootstrap';
 import logo from '../../assets/img/Sol.png';
+// Nunca esquecer de fazer os imports
 
 const Menu = () => {
 return(
