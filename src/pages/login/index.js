@@ -36,7 +36,7 @@ const Login = () => {
             alert('Dados Inválidos');
         })
         .then(data => {
-            localStorage.setItem('token-nyous-tarde', data.token);
+            localStorage.setItem('token-nyous', data.token);
 
             let usuario = (data.token);
 
