@@ -11,14 +11,14 @@ const Home = () => {
                 <Carousel.Item>
                 <img
       className="d-block w-100"
-      src="https://www.ilhabela.com.br/wp-content/uploads/2020/09/capa-casamento-em-ilhabela.jpg"
+      src="https://www.ilhabela.com.br/wp-content/uploads/2016/01/eventos-em-ilhabela.jpg"
       alt="First slide"
     />  
-                </Carousel.Item>
+                </Carousel.Item> 
                 <Carousel.Item>
                 <img
       className="d-block w-100"
-      src="https://www.ilhabela.com.br/wp-content/uploads/2020/09/dados-gerais-de-ilhabela.jpg"
+      src="https://www.ilhabela.com.br/wp-content/uploads/2020/09/capa-casamento-em-ilhabela.jpg"
       alt="First slide"
     />  
                 </Carousel.Item>
